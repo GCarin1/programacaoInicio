@@ -1,4 +1,9 @@
+#Escreva um programa em Python que leia a cotação do
+#dólar (taxa de conversão), leia um valor em dólares e
+#converta e mostre o valor equivalente em Reais
+
 import time
+
 class init:
   def steps(self):
     self.dolar_real()

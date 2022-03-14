@@ -1,4 +1,9 @@
+#Escreva um programa em Python que leia um valor representando o gasto
+#realizado por um cliente do restaurante ComaBem e visualize o valor total a ser pago,
+#considerando os 10% do garçom
+
 import time
+
 class init:
   def steps(self):
     self.gorjeta()

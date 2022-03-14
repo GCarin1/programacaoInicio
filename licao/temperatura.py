@@ -1,3 +1,5 @@
+#Escreva um programa em Python que obtenha uma temperatura em graus Celsius,
+#calcule e mostre a respectiva temperatura nas escalas Fahrenheit e Kelvin. 
 
 import time
 class init:
