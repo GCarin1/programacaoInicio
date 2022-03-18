@@ -1,4 +1,11 @@
-
+# inverssao de um numero digitado com python
+# + Soma 
+# - Subtração 
+# * Multiplicação 
+# / Divisão 
+# // Parte Inteira 
+# % Resto de uma divisão inteira 
+# + Manutenção de sinal 
 
 class init:
 
@@ -6,7 +13,7 @@ class init:
     self.ex3()
 
   def ex3(self):
-    # inverssao de um numero digitado com python 
+     
         num = int(input("Digite um número com três casas decimais\n:"))
         d1=num//100
         d2=num%100//10
