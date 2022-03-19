@@ -26,18 +26,20 @@ class init:
 
   def math(self):
          #Vamos criar um programa que solicite um número real, calcule e que apresente:
-    num=input("Digíte um número\n:")
-    num=int(num)
-    absoluto=math.fabs(num)
-    inteiro=math.trunc(num)
-    raiz2=math.sqrt(absoluto)
-    fatorial=math.factorial(math.fabs(inteiro))
+    num=int(input("Digíte um número\n:"))
+    
+    absoluto=int(math.fabs(num))
+    inteiro=int(math.trunc(num))
+    raiz2=int(math.sqrt(absoluto))
+    raiz3=num**2
+   #fatorial=int(math.factorial(math.fabs(inteiro)))
     
 
     print(f'Resultado ao quadrado \n:{raiz2}')
     print(f'Resultado absoluto \n:{absoluto}')
     print(f'Resultado inteiro \n:{inteiro}')
-    print(f'Resultado fatorial \n:{fatorial}')
+    print(f'Resultado inteiro \n:{raiz3}')
+    #print(f'Resultado fatorial \n:{fatorial}')
 
 
        

@@ -22,4 +22,4 @@ class init:
         print(f'O inverso do muero digitado é\n{inverso}')
               
 start = init()
-start.steps()
+start.steps() 
