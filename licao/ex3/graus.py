@@ -17,6 +17,9 @@
 #math.pow(x,y)Retorna o valor de x elevado à potência y Se quisermos o resultado em inteiro, devemos usar a função embutida de Python, pow(), ou o operador **.
 #math.pi Retorna o valor do número pi
 
+#peça do usuário um valor em graus para
+#um ângulo. Converta-o para radianos e, usando funções da biblioteca math,
+#imprima o seno, cosseno e tangente deste ângulo:
 import math
 
 class init:
@@ -25,7 +28,7 @@ class init:
     self.grauss()
 
   def grauss(self):
-         #Vamos criar um programa que solicite um número real, calcule e que apresente:
+            
     graus=float(input("Digite o número em graus \n:"))
     rad=float(math.radians(graus))
     sin=math.sin(rad)

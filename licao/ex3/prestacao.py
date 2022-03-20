@@ -1,3 +1,7 @@
+#Escreva um programa em Python para calcular o valor de uma prestação em
+#atraso (prestacao). Para isso, obtenha o valor da prestação (valorPrestacao), a
+#porcentagem de multa pelo atraso (multa) e a quantidade de dias de atraso
+#(qtdeDias)
 
 import time 
 
