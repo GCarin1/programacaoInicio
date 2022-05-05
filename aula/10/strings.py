@@ -41,15 +41,20 @@ class init:
             print(d)
             inversa = d +inversa
             
+            
         print(inversa)
-    
+    def  exemplo2(self):
+        frut=str(input("Digite uma fruta\n:"))
+        
+        print(frut[0:2))
+       
     def choseexemplo(self):
         self.intro()
         
-        c=int(input("Qual exemplo da aula 10 voce quer executar ? \n 1- Exemplo 01 \n:"))
+        c=int(input("Qual exemplo da aula 10 voce quer executar ? \n 1- Exemplo 01 \n 2- Exemplo 02\n:"))
         
         if(c==1):self.exemplo1()
-        #if(c==2):
+        if(c==2):self.exemplo2()
         
 
         
